@@ -1,0 +1,296 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1049816552,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Ich bin als \u003cAdmin\u003e eingeloggt",
+            "match": {
+              "location": "Login.ich_bin_als_Admin_eingeloggt()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11091068430,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "",
+        "description": "",
+        "id": "regel-/-bedingung-aendern;",
+        "after": [
+          {
+            "result": {
+              "duration": 691541087,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 54371,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Ich rufe die \u003cRegeln\u003e auf",
+            "match": {
+              "location": "RegelnBedingungenAnlegen.ich_rufe_die_Regeln_auf()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 43422,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Ich rufe die \u003cMaske (Aendern)\u003e auf",
+            "match": {
+              "location": "RegelnBedingungenAendern.ich_rufe_die_Maske_Aendern_auf()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10195,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Ich aendere die Daten",
+            "match": {
+              "location": "RegelnBedingungenAendern.ich_aendere_die_Daten()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 610937697,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Ich klicke Speichern",
+            "match": {
+              "location": "RegelnBedingungenAnlegen.ich_klicke_Speichern()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18124,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Ich sehe die Uebersicht \u003cRegeln\u003e",
+            "match": {
+              "location": "RegelnBedingungenAnlegen.ich_sehe_die_Uebersicht_Regeln()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16613,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Die geaenderte \u003cRegeln\u003e ist selektiert",
+            "match": {
+              "location": "RegelnBedingungenAendern.die_geaenderte_Regeln_ist_selektiert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10195,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Die geaenderte Daten sind vorhanden",
+            "match": {
+              "location": "RegelnBedingungenAendern.die_geaenderte_Daten_sind_vorhanden()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Regel / Bedingung aendern",
+    "description": "",
+    "id": "regel-/-bedingung-aendern",
+    "keyword": "Feature",
+    "uri": "RegelnBedingungenAendern.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 922086121,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Ich bin als \u003cAdmin\u003e eingeloggt",
+            "match": {
+              "location": "Login.ich_bin_als_Admin_eingeloggt()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4563443646,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "",
+        "description": "",
+        "id": "regel-/-bedingung-anlegen;",
+        "after": [
+          {
+            "result": {
+              "duration": 869497367,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 45687,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Ich rufe die \u003cRegeln\u003e auf",
+            "match": {
+              "location": "RegelnBedingungenAnlegen.ich_rufe_die_Regeln_auf()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26053,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Ich rufe die \u003cMaske (Neu)\u003e auf",
+            "match": {
+              "location": "RegelnBedingungenAnlegen.ich_rufe_die_Maske_Neu_auf()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 717004407,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Ich fuege die Daten ein",
+            "match": {
+              "location": "RegelnBedingungenAnlegen.ich_fuege_die_Daten_ein()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 697480816,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Ich klicke Speichern",
+            "match": {
+              "location": "RegelnBedingungenAnlegen.ich_klicke_Speichern()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16236,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Ich sehe die Uebersicht \u003cRegeln\u003e",
+            "match": {
+              "location": "RegelnBedingungenAnlegen.ich_sehe_die_Uebersicht_Regeln()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15481,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Die angelegte \u003cRegeln\u003e ist selektiert",
+            "match": {
+              "location": "RegelnBedingungenAnlegen.die_angelegte_Regeln_ist_selektiert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5000351529,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Die eingegebenen Daten sind vorhanden",
+            "match": {
+              "location": "RegelnBedingungenAnlegen.die_eingegebenen_Daten_sind_vorhanden()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Regel / Bedingung anlegen",
+    "description": "",
+    "id": "regel-/-bedingung-anlegen",
+    "keyword": "Feature",
+    "uri": "RegelnBedingungenAnlegen.feature"
+  }
+]

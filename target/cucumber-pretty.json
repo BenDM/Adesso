@@ -1,0 +1,26 @@
+Feature: Regel / Bedingung aendern
+
+  Background:                            [90m# RegelnBedingungenAendern.feature:3[0m
+    [32mGiven [0m[32mIch bin als <Admin> eingeloggt[0m [90m# Login.ich_bin_als_Admin_eingeloggt()[0m
+
+  Scenario:                                    [90m# RegelnBedingungenAendern.feature:6[0m
+    [32mGiven [0m[32mIch rufe die <Regeln> auf[0m            [90m# RegelnBedingungenAnlegen.ich_rufe_die_Regeln_auf()[0m
+    [32mAnd [0m[32mIch rufe die <Maske (Aendern)> auf[0m     [90m# RegelnBedingungenAendern.ich_rufe_die_Maske_Aendern_auf()[0m
+    [32mWhen [0m[32mIch aendere die Daten[0m                 [90m# RegelnBedingungenAendern.ich_aendere_die_Daten()[0m
+    [32mAnd [0m[32mIch klicke Speichern[0m                   [90m# RegelnBedingungenAnlegen.ich_klicke_Speichern()[0m
+    [32mThen [0m[32mIch sehe die Uebersicht <Regeln>[0m      [90m# RegelnBedingungenAnlegen.ich_sehe_die_Uebersicht_Regeln()[0m
+    [32mAnd [0m[32mDie geaenderte <Regeln> ist selektiert[0m [90m# RegelnBedingungenAendern.die_geaenderte_Regeln_ist_selektiert()[0m
+    [32mAnd [0m[32mDie geaenderte Daten sind vorhanden[0m    [90m# RegelnBedingungenAendern.die_geaenderte_Daten_sind_vorhanden()[0m
+Feature: Regel / Bedingung anlegen
+
+  Background:                            [90m# RegelnBedingungenAnlegen.feature:3[0m
+    [32mGiven [0m[32mIch bin als <Admin> eingeloggt[0m [90m# Login.ich_bin_als_Admin_eingeloggt()[0m
+
+  Scenario:                                   [90m# RegelnBedingungenAnlegen.feature:6[0m
+    [32mGiven [0m[32mIch rufe die <Regeln> auf[0m           [90m# RegelnBedingungenAnlegen.ich_rufe_die_Regeln_auf()[0m
+    [32mAnd [0m[32mIch rufe die <Maske (Neu)> auf[0m        [90m# RegelnBedingungenAnlegen.ich_rufe_die_Maske_Neu_auf()[0m
+    [32mWhen [0m[32mIch fuege die Daten ein[0m              [90m# RegelnBedingungenAnlegen.ich_fuege_die_Daten_ein()[0m
+    [32mAnd [0m[32mIch klicke Speichern[0m                  [90m# RegelnBedingungenAnlegen.ich_klicke_Speichern()[0m
+    [32mThen [0m[32mIch sehe die Uebersicht <Regeln>[0m     [90m# RegelnBedingungenAnlegen.ich_sehe_die_Uebersicht_Regeln()[0m
+    [32mAnd [0m[32mDie angelegte <Regeln> ist selektiert[0m [90m# RegelnBedingungenAnlegen.die_angelegte_Regeln_ist_selektiert()[0m
+    [32mAnd [0m[32mDie eingegebenen Daten sind vorhanden[0m [90m# RegelnBedingungenAnlegen.die_eingegebenen_Daten_sind_vorhanden()[0m
