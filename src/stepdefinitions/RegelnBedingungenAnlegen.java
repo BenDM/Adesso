@@ -17,13 +17,13 @@ public class RegelnBedingungenAnlegen {
 	}
 
 
-	@Given("^Ich rufe die <Regeln> auf$")
+	@Given("^Ich rufe die Regeln auf$")
 	public void ich_rufe_die_Regeln_auf() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 
 	}
 
-	@Given("^Ich rufe die <Maske \\(Neu\\)> auf$")
+	@Given("^Ich rufe die Maske \\(Neu\\) auf$")
 	public void ich_rufe_die_Maske_Neu_auf() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 
@@ -49,12 +49,12 @@ public class RegelnBedingungenAnlegen {
 		driver.findElement(By.id("insure-main-form:j_idt350:button")).click();
 	}
 
-	@Then("^Ich sehe die Uebersicht <Regeln>$")
+	@Then("^Ich sehe die Uebersicht Regeln$")
 	public void ich_sehe_die_Uebersicht_Regeln() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	}
 
-	@Then("^Die angelegte <Regeln> ist selektiert$")
+	@Then("^Die angelegte Regeln ist selektiert$")
 	public void die_angelegte_Regeln_ist_selektiert() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	}

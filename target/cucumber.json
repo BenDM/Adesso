@@ -11,11 +11,11 @@
         "steps": [
           {
             "result": {
-              "duration": 1049816552,
+              "duration": 991477615,
               "status": "passed"
             },
             "line": 4,
-            "name": "Ich bin als \u003cAdmin\u003e eingeloggt",
+            "name": "Ich bin als Admin eingeloggt",
             "match": {
               "location": "Login.ich_bin_als_Admin_eingeloggt()"
             },
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 11091068430,
+              "duration": 8380684910,
               "status": "passed"
             },
             "match": {
@@ -35,14 +35,14 @@
             }
           }
         ],
-        "line": 6,
+        "line": 5,
         "name": "",
         "description": "",
         "id": "regel-/-bedingung-aendern;",
         "after": [
           {
             "result": {
-              "duration": 691541087,
+              "duration": 740259632,
               "status": "passed"
             },
             "match": {
@@ -58,8 +58,8 @@
               "duration": 54371,
               "status": "passed"
             },
-            "line": 7,
-            "name": "Ich rufe die \u003cRegeln\u003e auf",
+            "line": 6,
+            "name": "Ich rufe die Regeln auf",
             "match": {
               "location": "RegelnBedingungenAnlegen.ich_rufe_die_Regeln_auf()"
             },
@@ -67,11 +67,11 @@
           },
           {
             "result": {
-              "duration": 43422,
+              "duration": 47953,
               "status": "passed"
             },
-            "line": 8,
-            "name": "Ich rufe die \u003cMaske (Aendern)\u003e auf",
+            "line": 7,
+            "name": "Ich rufe die Maske (Aendern) auf",
             "match": {
               "location": "RegelnBedingungenAendern.ich_rufe_die_Maske_Aendern_auf()"
             },
@@ -82,7 +82,7 @@
               "duration": 10195,
               "status": "passed"
             },
-            "line": 9,
+            "line": 8,
             "name": "Ich aendere die Daten",
             "match": {
               "location": "RegelnBedingungenAendern.ich_aendere_die_Daten()"
@@ -91,10 +91,10 @@
           },
           {
             "result": {
-              "duration": 610937697,
+              "duration": 610512540,
               "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "Ich klicke Speichern",
             "match": {
               "location": "RegelnBedingungenAnlegen.ich_klicke_Speichern()"
@@ -103,11 +103,11 @@
           },
           {
             "result": {
-              "duration": 18124,
+              "duration": 18501,
               "status": "passed"
             },
-            "line": 11,
-            "name": "Ich sehe die Uebersicht \u003cRegeln\u003e",
+            "line": 10,
+            "name": "Ich sehe die Uebersicht Regeln",
             "match": {
               "location": "RegelnBedingungenAnlegen.ich_sehe_die_Uebersicht_Regeln()"
             },
@@ -115,11 +115,11 @@
           },
           {
             "result": {
-              "duration": 16613,
+              "duration": 13971,
               "status": "passed"
             },
-            "line": 12,
-            "name": "Die geaenderte \u003cRegeln\u003e ist selektiert",
+            "line": 11,
+            "name": "Die geaenderte Regeln ist selektiert",
             "match": {
               "location": "RegelnBedingungenAendern.die_geaenderte_Regeln_ist_selektiert()"
             },
@@ -127,10 +127,10 @@
           },
           {
             "result": {
-              "duration": 10195,
+              "duration": 21522,
               "status": "passed"
             },
-            "line": 13,
+            "line": 12,
             "name": "Die geaenderte Daten sind vorhanden",
             "match": {
               "location": "RegelnBedingungenAendern.die_geaenderte_Daten_sind_vorhanden()"
@@ -158,11 +158,11 @@
         "steps": [
           {
             "result": {
-              "duration": 922086121,
+              "duration": 868456376,
               "status": "passed"
             },
             "line": 4,
-            "name": "Ich bin als \u003cAdmin\u003e eingeloggt",
+            "name": "Ich bin als Admin eingeloggt",
             "match": {
               "location": "Login.ich_bin_als_Admin_eingeloggt()"
             },
@@ -174,7 +174,7 @@
         "before": [
           {
             "result": {
-              "duration": 4563443646,
+              "duration": 4512790752,
               "status": "passed"
             },
             "match": {
@@ -182,14 +182,14 @@
             }
           }
         ],
-        "line": 6,
+        "line": 5,
         "name": "",
         "description": "",
         "id": "regel-/-bedingung-anlegen;",
         "after": [
           {
             "result": {
-              "duration": 869497367,
+              "duration": 796737472,
               "status": "passed"
             },
             "match": {
@@ -202,11 +202,11 @@
         "steps": [
           {
             "result": {
-              "duration": 45687,
+              "duration": 30961,
               "status": "passed"
             },
-            "line": 7,
-            "name": "Ich rufe die \u003cRegeln\u003e auf",
+            "line": 6,
+            "name": "Ich rufe die Regeln auf",
             "match": {
               "location": "RegelnBedingungenAnlegen.ich_rufe_die_Regeln_auf()"
             },
@@ -214,11 +214,11 @@
           },
           {
             "result": {
-              "duration": 26053,
+              "duration": 18123,
               "status": "passed"
             },
-            "line": 8,
-            "name": "Ich rufe die \u003cMaske (Neu)\u003e auf",
+            "line": 7,
+            "name": "Ich rufe die Maske (Neu) auf",
             "match": {
               "location": "RegelnBedingungenAnlegen.ich_rufe_die_Maske_Neu_auf()"
             },
@@ -226,10 +226,10 @@
           },
           {
             "result": {
-              "duration": 717004407,
+              "duration": 788047441,
               "status": "passed"
             },
-            "line": 9,
+            "line": 8,
             "name": "Ich fuege die Daten ein",
             "match": {
               "location": "RegelnBedingungenAnlegen.ich_fuege_die_Daten_ein()"
@@ -238,10 +238,10 @@
           },
           {
             "result": {
-              "duration": 697480816,
+              "duration": 682524447,
               "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "Ich klicke Speichern",
             "match": {
               "location": "RegelnBedingungenAnlegen.ich_klicke_Speichern()"
@@ -250,11 +250,11 @@
           },
           {
             "result": {
-              "duration": 16236,
+              "duration": 20012,
               "status": "passed"
             },
-            "line": 11,
-            "name": "Ich sehe die Uebersicht \u003cRegeln\u003e",
+            "line": 10,
+            "name": "Ich sehe die Uebersicht Regeln",
             "match": {
               "location": "RegelnBedingungenAnlegen.ich_sehe_die_Uebersicht_Regeln()"
             },
@@ -262,11 +262,11 @@
           },
           {
             "result": {
-              "duration": 15481,
+              "duration": 18502,
               "status": "passed"
             },
-            "line": 12,
-            "name": "Die angelegte \u003cRegeln\u003e ist selektiert",
+            "line": 11,
+            "name": "Die angelegte Regeln ist selektiert",
             "match": {
               "location": "RegelnBedingungenAnlegen.die_angelegte_Regeln_ist_selektiert()"
             },
@@ -274,10 +274,10 @@
           },
           {
             "result": {
-              "duration": 5000351529,
+              "duration": 5000156696,
               "status": "passed"
             },
-            "line": 13,
+            "line": 12,
             "name": "Die eingegebenen Daten sind vorhanden",
             "match": {
               "location": "RegelnBedingungenAnlegen.die_eingegebenen_Daten_sind_vorhanden()"

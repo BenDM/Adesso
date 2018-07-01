@@ -11,7 +11,7 @@ public class Login {
 		this.driver = Hook.getDriver();
 	}
 
-	@Given("^Ich bin als <Admin> eingeloggt$")
+	@Given("^Ich bin als Admin eingeloggt$")
 	public void ich_bin_als_Admin_eingeloggt() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 		driver.get("http://localhost:9091/insuria-commission-web-war");

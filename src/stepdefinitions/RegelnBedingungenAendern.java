@@ -6,7 +6,7 @@ import cucumber.api.java.en.When;
 
 public class RegelnBedingungenAendern {
 	
-	@Given("^Ich rufe die <Maske \\(Aendern\\)> auf$")
+	@Given("^Ich rufe die Maske \\(Aendern\\) auf$")
 	public void ich_rufe_die_Maske_Aendern_auf() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	}
@@ -16,7 +16,7 @@ public class RegelnBedingungenAendern {
 	    // Write code here that turns the phrase above into concrete actions
 	}
 
-	@Then("^Die geaenderte <Regeln> ist selektiert$")
+	@Then("^Die geaenderte Regeln ist selektiert$")
 	public void die_geaenderte_Regeln_ist_selektiert() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	}

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="26.213484">
-<testcase classname="Regel / Bedingung aendern" name="" time="13.443517">
-<system-out><![CDATA[Given Ich bin als <Admin> eingeloggt........................................passed
-Given Ich rufe die <Regeln> auf.............................................passed
-And Ich rufe die <Maske (Aendern)> auf......................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="23.371902">
+<testcase classname="Regel / Bedingung aendern" name="" time="10.723101">
+<system-out><![CDATA[Given Ich bin als Admin eingeloggt..........................................passed
+Given Ich rufe die Regeln auf...............................................passed
+And Ich rufe die Maske (Aendern) auf........................................passed
 When Ich aendere die Daten..................................................passed
 And Ich klicke Speichern....................................................passed
-Then Ich sehe die Uebersicht <Regeln>.......................................passed
-And Die geaenderte <Regeln> ist selektiert..................................passed
+Then Ich sehe die Uebersicht Regeln.........................................passed
+And Die geaenderte Regeln ist selektiert....................................passed
 And Die geaenderte Daten sind vorhanden.....................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Regel / Bedingung anlegen" name="" time="12.769967">
-<system-out><![CDATA[Given Ich bin als <Admin> eingeloggt........................................passed
-Given Ich rufe die <Regeln> auf.............................................passed
-And Ich rufe die <Maske (Neu)> auf..........................................passed
+<testcase classname="Regel / Bedingung anlegen" name="" time="12.648801">
+<system-out><![CDATA[Given Ich bin als Admin eingeloggt..........................................passed
+Given Ich rufe die Regeln auf...............................................passed
+And Ich rufe die Maske (Neu) auf............................................passed
 When Ich fuege die Daten ein................................................passed
 And Ich klicke Speichern....................................................passed
-Then Ich sehe die Uebersicht <Regeln>.......................................passed
-And Die angelegte <Regeln> ist selektiert...................................passed
+Then Ich sehe die Uebersicht Regeln.........................................passed
+And Die angelegte Regeln ist selektiert.....................................passed
 And Die eingegebenen Daten sind vorhanden...................................passed
 ]]></system-out>
 </testcase>
