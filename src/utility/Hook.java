@@ -11,7 +11,7 @@ import cucumber.api.java.Before;
 public class Hook {
 
 	private static WebDriver driver;
-	
+
 	@Before
 	public void setUp()
 	{
@@ -19,13 +19,14 @@ public class Hook {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.get("http://localhost:9091/insuria-commission-web-war");
 	}
 	@After
 	public void tearDown()
 	{
 		driver.quit();
 	}
-	
+
 	public static WebDriver getDriver()
 	{
 		return driver;

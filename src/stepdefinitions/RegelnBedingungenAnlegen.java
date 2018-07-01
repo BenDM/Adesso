@@ -15,7 +15,10 @@ public class RegelnBedingungenAnlegen {
 	public RegelnBedingungenAnlegen() {
 		this.driver = Hook.getDriver();
 	}
+	@Given("^Ich bin als Admin eingeloggt$")
+	public void ich_bin_als_Admin_eingeloggt() throws Throwable {
 
+	}
 
 	@Given("^Ich rufe die Regeln auf$")
 	public void ich_rufe_die_Regeln_auf() throws Throwable {
