@@ -1,6 +1,6 @@
-Feature: Regel / Bedingung aendern
+Feature:
 
-  Scenario: 
+  Scenario:
     Given Ich bin als Admin eingeloggt
     Given Ich rufe die Regeln auf
     And Ich rufe die Maske (Aendern) auf
@@ -10,7 +10,7 @@ Feature: Regel / Bedingung aendern
     And Die geaenderte Regeln ist selektiert
     And Die geaenderte Daten sind vorhanden
 
-  Scenario: 
+  Scenario:
     Given Ich bin als Admin eingeloggt
     Given Ich rufe die Regeln auf
     And Ich rufe die Maske (Neu) auf
