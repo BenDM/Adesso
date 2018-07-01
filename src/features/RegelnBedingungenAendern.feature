@@ -1,4 +1,4 @@
-Feature:
+Feature: Regeln
 
   Scenario:
     Given Ich bin als Admin eingeloggt
