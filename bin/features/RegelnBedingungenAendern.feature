@@ -1,6 +1,6 @@
 Feature: Regeln
 
-  Scenario: 
+  Scenario: Regeln aendern
     Given Ich bin als Admin eingeloggt
     Given Ich rufe die Regeln auf
     And Ich rufe die Maske (Aendern) auf
