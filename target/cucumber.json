@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 6999336590,
+              "duration": 6456936676,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 712878200,
+              "duration": 713003179,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 611585625,
+              "duration": 521235733,
               "status": "passed"
             },
             "line": 4,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 67587,
+              "duration": 163871,
               "status": "passed"
             },
             "line": 5,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 72873,
+              "duration": 37381,
               "status": "passed"
             },
             "line": 6,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 13592,
+              "duration": 8307,
               "status": "passed"
             },
             "line": 7,
@@ -82,7 +82,7 @@
           },
           {
             "result": {
-              "duration": 564943776,
+              "duration": 544950853,
               "status": "passed"
             },
             "line": 8,
@@ -94,7 +94,7 @@
           },
           {
             "result": {
-              "duration": 23410,
+              "duration": 14725,
               "status": "passed"
             },
             "line": 9,
@@ -106,7 +106,7 @@
           },
           {
             "result": {
-              "duration": 33605,
+              "duration": 19257,
               "status": "passed"
             },
             "line": 10,
@@ -118,7 +118,7 @@
           },
           {
             "result": {
-              "duration": 22655,
+              "duration": 19257,
               "status": "passed"
             },
             "line": 11,
@@ -129,22 +129,12 @@
             "keyword": "And "
           }
         ]
-      }
-    ],
-    "name": "Regeln",
-    "description": "",
-    "id": "regeln",
-    "keyword": "Feature",
-    "uri": "RegelnBedingungenAendern.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
+      },
       {
         "before": [
           {
             "result": {
-              "duration": 5628927930,
+              "duration": 5165182709,
               "status": "passed"
             },
             "match": {
@@ -152,14 +142,14 @@
             }
           }
         ],
-        "line": 3,
+        "line": 13,
         "name": "Regeln Anlegen",
         "description": "",
         "id": "regeln;regeln-anlegen",
         "after": [
           {
             "result": {
-              "duration": 798667667,
+              "duration": 745603539,
               "status": "passed"
             },
             "match": {
@@ -172,10 +162,10 @@
         "steps": [
           {
             "result": {
-              "duration": 419837814,
+              "duration": 441015210,
               "status": "passed"
             },
-            "line": 4,
+            "line": 14,
             "name": "Ich bin als Admin eingeloggt",
             "match": {
               "location": "Login.ich_bin_als_Admin_eingeloggt()"
@@ -184,10 +174,10 @@
           },
           {
             "result": {
-              "duration": 29073,
+              "duration": 40401,
               "status": "passed"
             },
-            "line": 5,
+            "line": 15,
             "name": "Ich rufe die Regeln auf",
             "match": {
               "location": "RegelnBedingungenAnlegen.ich_rufe_die_Regeln_auf()"
@@ -196,10 +186,10 @@
           },
           {
             "result": {
-              "duration": 22655,
+              "duration": 35870,
               "status": "passed"
             },
-            "line": 6,
+            "line": 16,
             "name": "Ich rufe die Maske (Neu) auf",
             "match": {
               "location": "RegelnBedingungenAnlegen.ich_rufe_die_Maske_Neu_auf()"
@@ -208,10 +198,10 @@
           },
           {
             "result": {
-              "duration": 725721246,
+              "duration": 442635411,
               "status": "passed"
             },
-            "line": 7,
+            "line": 17,
             "name": "Ich fuege die Daten ein",
             "match": {
               "location": "RegelnBedingungenAnlegen.ich_fuege_die_Daten_ein()"
@@ -220,10 +210,10 @@
           },
           {
             "result": {
-              "duration": 581276051,
+              "duration": 559920058,
               "status": "passed"
             },
-            "line": 8,
+            "line": 18,
             "name": "Ich klicke Speichern",
             "match": {
               "location": "RegelnBedingungenAnlegen.ich_klicke_Speichern()"
@@ -232,10 +222,10 @@
           },
           {
             "result": {
-              "duration": 19257,
+              "duration": 16614,
               "status": "passed"
             },
-            "line": 9,
+            "line": 19,
             "name": "Ich sehe die Uebersicht Regeln",
             "match": {
               "location": "RegelnBedingungenAnlegen.ich_sehe_die_Uebersicht_Regeln()"
@@ -244,10 +234,10 @@
           },
           {
             "result": {
-              "duration": 30584,
+              "duration": 26808,
               "status": "passed"
             },
-            "line": 10,
+            "line": 20,
             "name": "Die angelegte Regeln ist selektiert",
             "match": {
               "location": "RegelnBedingungenAnlegen.die_angelegte_Regeln_ist_selektiert()"
@@ -256,10 +246,10 @@
           },
           {
             "result": {
-              "duration": 5000134041,
+              "duration": 5000735528,
               "status": "passed"
             },
-            "line": 11,
+            "line": 21,
             "name": "Die eingegebenen Daten sind vorhanden",
             "match": {
               "location": "RegelnBedingungenAnlegen.die_eingegebenen_Daten_sind_vorhanden()"
@@ -273,6 +263,6 @@
     "description": "",
     "id": "regeln",
     "keyword": "Feature",
-    "uri": "RegelnBedingungenAnlegen.feature"
+    "uri": "RegelnBedingungen.feature"
   }
 ]
