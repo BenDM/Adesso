@@ -1,7 +1,9 @@
 Feature: Regeln
 
-  Scenario: Regeln aendern
+Background:
     Given Ich bin als Admin eingeloggt
+
+  Scenario: Regeln aendern
     Given Ich rufe die Regeln auf
     And Ich rufe die Maske (Aendern) auf
     When Ich aendere die Daten
@@ -11,7 +13,6 @@ Feature: Regeln
     And Die geaenderte Daten sind vorhanden
 
   Scenario: Regeln Anlegen
-    Given Ich bin als Admin eingeloggt
     Given Ich rufe die Regeln auf
     And Ich rufe die Maske (Neu) auf
     When Ich fuege die Daten ein
