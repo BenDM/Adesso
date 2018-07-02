@@ -6,10 +6,10 @@ import cucumber.api.java.en.Given;
 import utility.Hook;
 
 public class Login {
-	private WebDriver driver;
-	public Login() {
-		this.driver = Hook.getDriver();
-	}
+//	private WebDriver driver;
+//	public Login() {
+//		this.driver = Hook.getDriver();
+//	}
 
 //	@Given("^Ich bin als Admin eingeloggt$")
 //	public void ich_bin_als_Admin_eingeloggt() throws Throwable {
