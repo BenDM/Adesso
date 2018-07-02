@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.80634">
-<testcase classname="Regeln" name="Regeln aendern" time="7.80634">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="22.043644">
+<testcase classname="Regeln" name="Regeln aendern" time="8.888978">
 <system-out><![CDATA[Given Ich bin als Admin eingeloggt..........................................passed
 Given Ich rufe die Regeln auf...............................................passed
 And Ich rufe die Maske (Aendern) auf........................................passed
@@ -9,6 +9,17 @@ And Ich klicke Speichern....................................................pass
 Then Ich sehe die Uebersicht Regeln.........................................passed
 And Die geaenderte Regeln ist selektiert....................................passed
 And Die geaenderte Daten sind vorhanden.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Regeln" name="Regeln Anlegen" time="13.154666">
+<system-out><![CDATA[Given Ich bin als Admin eingeloggt..........................................passed
+Given Ich rufe die Regeln auf...............................................passed
+And Ich rufe die Maske (Neu) auf............................................passed
+When Ich fuege die Daten ein................................................passed
+And Ich klicke Speichern....................................................passed
+Then Ich sehe die Uebersicht Regeln.........................................passed
+And Die angelegte Regeln ist selektiert.....................................passed
+And Die eingegebenen Daten sind vorhanden...................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

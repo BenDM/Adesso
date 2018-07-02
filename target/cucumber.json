@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 6982767194,
+              "duration": 6999336590,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 722614508,
+              "duration": 712878200,
               "status": "passed"
             },
             "match": {
@@ -34,31 +34,31 @@
         "steps": [
           {
             "result": {
-              "duration": 100870060,
+              "duration": 611585625,
               "status": "passed"
             },
             "line": 4,
             "name": "Ich bin als Admin eingeloggt",
             "match": {
-              "location": "RegelnBedingungenAendern.ich_bin_als_Admin_eingeloggt()"
+              "location": "Login.ich_bin_als_Admin_eingeloggt()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 12838,
+              "duration": 67587,
               "status": "passed"
             },
             "line": 5,
             "name": "Ich rufe die Regeln auf",
             "match": {
-              "location": "RegelnBedingungenAendern.ich_rufe_die_Regeln_auf()"
+              "location": "RegelnBedingungenAnlegen.ich_rufe_die_Regeln_auf()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 13593,
+              "duration": 72873,
               "status": "passed"
             },
             "line": 6,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 9439,
+              "duration": 13592,
               "status": "passed"
             },
             "line": 7,
@@ -82,31 +82,31 @@
           },
           {
             "result": {
-              "duration": 9817,
+              "duration": 564943776,
               "status": "passed"
             },
             "line": 8,
             "name": "Ich klicke Speichern",
             "match": {
-              "location": "RegelnBedingungenAendern.ich_klicke_Speichern()"
+              "location": "RegelnBedingungenAnlegen.ich_klicke_Speichern()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 11705,
+              "duration": 23410,
               "status": "passed"
             },
             "line": 9,
             "name": "Ich sehe die Uebersicht Regeln",
             "match": {
-              "location": "RegelnBedingungenAendern.ich_sehe_die_Uebersicht_Regeln()"
+              "location": "RegelnBedingungenAnlegen.ich_sehe_die_Uebersicht_Regeln()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 17746,
+              "duration": 33605,
               "status": "passed"
             },
             "line": 10,
@@ -118,7 +118,7 @@
           },
           {
             "result": {
-              "duration": 12838,
+              "duration": 22655,
               "status": "passed"
             },
             "line": 11,
@@ -136,5 +136,143 @@
     "id": "regeln",
     "keyword": "Feature",
     "uri": "RegelnBedingungenAendern.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5628927930,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Regeln Anlegen",
+        "description": "",
+        "id": "regeln;regeln-anlegen",
+        "after": [
+          {
+            "result": {
+              "duration": 798667667,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 419837814,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Ich bin als Admin eingeloggt",
+            "match": {
+              "location": "Login.ich_bin_als_Admin_eingeloggt()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29073,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Ich rufe die Regeln auf",
+            "match": {
+              "location": "RegelnBedingungenAnlegen.ich_rufe_die_Regeln_auf()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22655,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Ich rufe die Maske (Neu) auf",
+            "match": {
+              "location": "RegelnBedingungenAnlegen.ich_rufe_die_Maske_Neu_auf()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 725721246,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Ich fuege die Daten ein",
+            "match": {
+              "location": "RegelnBedingungenAnlegen.ich_fuege_die_Daten_ein()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 581276051,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Ich klicke Speichern",
+            "match": {
+              "location": "RegelnBedingungenAnlegen.ich_klicke_Speichern()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19257,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Ich sehe die Uebersicht Regeln",
+            "match": {
+              "location": "RegelnBedingungenAnlegen.ich_sehe_die_Uebersicht_Regeln()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30584,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Die angelegte Regeln ist selektiert",
+            "match": {
+              "location": "RegelnBedingungenAnlegen.die_angelegte_Regeln_ist_selektiert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5000134041,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Die eingegebenen Daten sind vorhanden",
+            "match": {
+              "location": "RegelnBedingungenAnlegen.die_eingegebenen_Daten_sind_vorhanden()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Regeln",
+    "description": "",
+    "id": "regeln",
+    "keyword": "Feature",
+    "uri": "RegelnBedingungenAnlegen.feature"
   }
 ]
