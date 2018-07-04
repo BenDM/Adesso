@@ -14,7 +14,7 @@ public class Login {
 	@Given("^Ich bin als Admin eingeloggt$")
 	public void ich_bin_als_Admin_eingeloggt() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-		driver.get("http://localhost:9091/insuria-commission-web-war");
+		driver.get("http://localhost:9091/insuria-commission-web-war/suche.xhtml");
 //		System.out.println("Current url : " + driver.getCurrentUrl());
 	}
 }

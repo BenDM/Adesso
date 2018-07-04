@@ -1,25 +1,44 @@
-Feature: Regeln
+Feature: Stammdaten
 
-  Background:                          [90m# RegelnBedingungen.feature:3[0m
-    [32mGiven [0m[32mIch bin als Admin eingeloggt[0m [90m# Login.ich_bin_als_Admin_eingeloggt()[0m
+  Scenario Outline: Stammdaten suchen                                                                              # Test.feature:6
+    Given Ich rufe die Stammdaten auf
+    And Ich sehe die Uebersicht Stammdaten
+    When Ich gebe im Suchfeld folgende Parameters '<Stammdatensatznummer>' ,'<Kundennummer>','<Mitarbeiternummer>'
+    And Ich klicke Suchen
+    Then Die gesuchte Stammdaten ist selektiert
+    And Ich kann Detailansicht aufrufen
 
-  Scenario: Regeln aendern                   [90m# RegelnBedingungen.feature:6[0m
-    [32mGiven [0m[32mIch rufe die Regeln auf[0m            [90m# RegelnBedingungenAnlegen.ich_rufe_die_Regeln_auf()[0m
-    [32mAnd [0m[32mIch rufe die Maske (Aendern) auf[0m     [90m# RegelnBedingungenAendern.ich_rufe_die_Maske_Aendern_auf()[0m
-    [32mWhen [0m[32mIch aendere die Daten[0m               [90m# RegelnBedingungenAendern.ich_aendere_die_Daten()[0m
-    [32mAnd [0m[32mIch klicke Speichern[0m                 [90m# RegelnBedingungenAnlegen.ich_klicke_Speichern()[0m
-    [32mThen [0m[32mIch sehe die Uebersicht Regeln[0m      [90m# RegelnBedingungenAnlegen.ich_sehe_die_Uebersicht_Regeln()[0m
-    [32mAnd [0m[32mDie geaenderte Regeln ist selektiert[0m [90m# RegelnBedingungenAendern.die_geaenderte_Regeln_ist_selektiert()[0m
-    [32mAnd [0m[32mDie geaenderte Daten sind vorhanden[0m  [90m# RegelnBedingungenAendern.die_geaenderte_Daten_sind_vorhanden()[0m
+    Examples: 
 
-  Background:                          [90m# RegelnBedingungen.feature:3[0m
-    [32mGiven [0m[32mIch bin als Admin eingeloggt[0m [90m# Login.ich_bin_als_Admin_eingeloggt()[0m
+  Background:                          # Test.feature:3
+    Given Ich bin als Admin eingeloggt # Login.ich_bin_als_Admin_eingeloggt()
 
-  Scenario: Regeln Anlegen                    [90m# RegelnBedingungen.feature:15[0m
-    [32mGiven [0m[32mIch rufe die Regeln auf[0m             [90m# RegelnBedingungenAnlegen.ich_rufe_die_Regeln_auf()[0m
-    [32mAnd [0m[32mIch rufe die Maske (Neu) auf[0m          [90m# RegelnBedingungenAnlegen.ich_rufe_die_Maske_Neu_auf()[0m
-    [32mWhen [0m[32mIch fuege die Daten ein[0m              [90m# RegelnBedingungenAnlegen.ich_fuege_die_Daten_ein()[0m
-    [32mAnd [0m[32mIch klicke Speichern[0m                  [90m# RegelnBedingungenAnlegen.ich_klicke_Speichern()[0m
-    [32mThen [0m[32mIch sehe die Uebersicht Regeln[0m       [90m# RegelnBedingungenAnlegen.ich_sehe_die_Uebersicht_Regeln()[0m
-    [32mAnd [0m[32mDie angelegte Regeln ist selektiert[0m   [90m# RegelnBedingungenAnlegen.die_angelegte_Regeln_ist_selektiert()[0m
-    [32mAnd [0m[32mDie eingegebenen Daten sind vorhanden[0m [90m# RegelnBedingungenAnlegen.die_eingegebenen_Daten_sind_vorhanden()[0m
+  Scenario Outline: Stammdaten suchen                          # Test.feature:16
+    Given Ich rufe die Stammdaten auf                          # StammdatenSuchen.ich_rufe_die_Stammdaten_auf()
+    And Ich sehe die Uebersicht Stammdaten                     # StammdatenSuchen.ich_sehe_die_Uebersicht_Stammdaten()
+    When Ich gebe im Suchfeld folgende Parameters '1' ,'1','1' # StammdatenSuchen.ich_gebe_im_Suchfeld_folgende_Parameters(String,String,String)
+    And Ich klicke Suchen                                      # StammdatenSuchen.ich_klicke_Suchen()
+    Then Die gesuchte Stammdaten ist selektiert                # StammdatenSuchen.die_gesuchte_Stammdaten_ist_selektiert()
+    And Ich kann Detailansicht aufrufen                        # StammdatenSuchen.ich_kann_Detailansicht_aufrufen()
+
+  Background:                          # Test.feature:3
+    Given Ich bin als Admin eingeloggt # Login.ich_bin_als_Admin_eingeloggt()
+
+  Scenario Outline: Stammdaten suchen                          # Test.feature:17
+    Given Ich rufe die Stammdaten auf                          # StammdatenSuchen.ich_rufe_die_Stammdaten_auf()
+    And Ich sehe die Uebersicht Stammdaten                     # StammdatenSuchen.ich_sehe_die_Uebersicht_Stammdaten()
+    When Ich gebe im Suchfeld folgende Parameters '2' ,'2','2' # StammdatenSuchen.ich_gebe_im_Suchfeld_folgende_Parameters(String,String,String)
+    And Ich klicke Suchen                                      # StammdatenSuchen.ich_klicke_Suchen()
+    Then Die gesuchte Stammdaten ist selektiert                # StammdatenSuchen.die_gesuchte_Stammdaten_ist_selektiert()
+    And Ich kann Detailansicht aufrufen                        # StammdatenSuchen.ich_kann_Detailansicht_aufrufen()
+
+  Background:                          # Test.feature:3
+    Given Ich bin als Admin eingeloggt # Login.ich_bin_als_Admin_eingeloggt()
+
+  Scenario Outline: Stammdaten suchen                          # Test.feature:18
+    Given Ich rufe die Stammdaten auf                          # StammdatenSuchen.ich_rufe_die_Stammdaten_auf()
+    And Ich sehe die Uebersicht Stammdaten                     # StammdatenSuchen.ich_sehe_die_Uebersicht_Stammdaten()
+    When Ich gebe im Suchfeld folgende Parameters '3' ,'3','3' # StammdatenSuchen.ich_gebe_im_Suchfeld_folgende_Parameters(String,String,String)
+    And Ich klicke Suchen                                      # StammdatenSuchen.ich_klicke_Suchen()
+    Then Die gesuchte Stammdaten ist selektiert                # StammdatenSuchen.die_gesuchte_Stammdaten_ist_selektiert()
+    And Ich kann Detailansicht aufrufen                        # StammdatenSuchen.ich_kann_Detailansicht_aufrufen()

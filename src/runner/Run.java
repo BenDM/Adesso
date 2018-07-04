@@ -13,9 +13,10 @@ import cucumber.api.junit.Cucumber;
 				"json:target/cucumber.json",
 				"pretty:target/cucumber-pretty.json",
 				"junit:target/cucumber.xml"
-		}
+		},
+		monochrome = true
 		)
 
 public class Run {
-	
+
 }

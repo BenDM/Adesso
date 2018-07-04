@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="21.075255">
-<testcase classname="Regeln" name="Regeln aendern" time="8.454074">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="38.843892">
+<testcase classname="Stammdaten" name="Stammdaten suchen" time="13.641805">
 <system-out><![CDATA[Given Ich bin als Admin eingeloggt..........................................passed
-Given Ich rufe die Regeln auf...............................................passed
-And Ich rufe die Maske (Aendern) auf........................................passed
-When Ich aendere die Daten..................................................passed
-And Ich klicke Speichern....................................................passed
-Then Ich sehe die Uebersicht Regeln.........................................passed
-And Die geaenderte Regeln ist selektiert....................................passed
-And Die geaenderte Daten sind vorhanden.....................................passed
+Given Ich rufe die Stammdaten auf...........................................passed
+And Ich sehe die Uebersicht Stammdaten......................................passed
+When Ich gebe im Suchfeld folgende Parameters '1' ,'1','1'..................passed
+And Ich klicke Suchen.......................................................passed
+Then Die gesuchte Stammdaten ist selektiert.................................passed
+And Ich kann Detailansicht aufrufen.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Regeln" name="Regeln Anlegen" time="12.621181">
+<testcase classname="Stammdaten" name="Stammdaten suchen 2" time="12.679708">
 <system-out><![CDATA[Given Ich bin als Admin eingeloggt..........................................passed
-Given Ich rufe die Regeln auf...............................................passed
-And Ich rufe die Maske (Neu) auf............................................passed
-When Ich fuege die Daten ein................................................passed
-And Ich klicke Speichern....................................................passed
-Then Ich sehe die Uebersicht Regeln.........................................passed
-And Die angelegte Regeln ist selektiert.....................................passed
-And Die eingegebenen Daten sind vorhanden...................................passed
+Given Ich rufe die Stammdaten auf...........................................passed
+And Ich sehe die Uebersicht Stammdaten......................................passed
+When Ich gebe im Suchfeld folgende Parameters '2' ,'2','2'..................passed
+And Ich klicke Suchen.......................................................passed
+Then Die gesuchte Stammdaten ist selektiert.................................passed
+And Ich kann Detailansicht aufrufen.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Stammdaten" name="Stammdaten suchen 3" time="12.522379">
+<system-out><![CDATA[Given Ich bin als Admin eingeloggt..........................................passed
+Given Ich rufe die Stammdaten auf...........................................passed
+And Ich sehe die Uebersicht Stammdaten......................................passed
+When Ich gebe im Suchfeld folgende Parameters '3' ,'3','3'..................passed
+And Ich klicke Suchen.......................................................passed
+Then Die gesuchte Stammdaten ist selektiert.................................passed
+And Ich kann Detailansicht aufrufen.........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

@@ -2,6 +2,7 @@ package stepdefinitions;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -18,6 +19,7 @@ public class StammdatenSuchen {
 	@Given("^Ich rufe die Stammdaten auf$")
 	public void ich_rufe_die_Stammdaten_auf() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
+
 	}
 
 	@Given("^Ich sehe die Uebersicht Stammdaten$")
@@ -25,23 +27,27 @@ public class StammdatenSuchen {
 	    // Write code here that turns the phrase above into concrete actions
 	}
 
-	@When("^Ich gebe eine (\\d+) und (\\d+) und <Mitabeiternummer> im Suchfeld ein$")
-	public void ich_gebe_eine_und_und_Mitabeiternummer_im_Suchfeld_ein(String sNummer, String kNummer, String mNummer) throws Throwable {
+
+	@When("^Ich gebe im Suchfeld folgende Parameters '(\\d+)' ,'(\\d+)','(\\d+)'$")
+	public void ich_gebe_im_Suchfeld_folgende_Parameters(String sNummer, String kNummer, String mNummer) throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 		driver.findElement(By.id("insure-main-form:stammdatenNr:input")).clear();;
 		driver.findElement(By.id("insure-main-form:stammdatenNr:input")).sendKeys(sNummer);
-		Thread.sleep(10000);
+		Thread.sleep(1000);
 		driver.findElement(By.id("insure-main-form:kundenNummer:input")).clear();;
 		driver.findElement(By.id("insure-main-form:kundenNummer:input")).sendKeys(kNummer);
-		Thread.sleep(10000);
+		Thread.sleep(1000);
 		driver.findElement(By.id("insure-main-form:MitarbeiterNummer:input")).clear();;
 		driver.findElement(By.id("insure-main-form:MitarbeiterNummer:input")).sendKeys(mNummer);
-		Thread.sleep(50000);
-	}
+		Thread.sleep(1000);
+		}
 
 	@When("^Ich klicke Suchen$")
 	public void ich_klicke_Suchen() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
+		Thread.sleep(1000);
+		driver.findElement(By.id("insure-main-form:j_idt351:button")).click();
+		Thread.sleep(1000);
 	}
 
 	@Then("^Die gesuchte Stammdaten ist selektiert$")
